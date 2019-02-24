@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(int)
-  new_range = 2..int
+  new_range = 2..(int - 1)
   if int < 2
     false
   elsif int == 2 
