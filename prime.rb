@@ -2,13 +2,13 @@
 def prime?(int)
   new_range = 2..(int - 1)
   if int < 2
-    false
+    return false
   elsif int == 2 
-    true
+    return true
   end
   for num in new_range do
     if int % num == 0
-      false
+      return false
     else 
       true
     end
