@@ -9,8 +9,7 @@ def prime?(int)
   for num in new_range do
     if int % num == 0
       return false
-    else 
-      true
     end
   end
+  true
 end
